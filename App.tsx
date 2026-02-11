@@ -1,9 +1,10 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Hobbies from './components/Hobbies';
 import Achievements from './components/Achievements';
+import TeacherComments from './components/TeacherComments';
 import Future from './components/Future';
 import Footer from './components/Footer';
 
@@ -20,6 +21,8 @@ const App: React.FC = () => {
         <Achievements />
         
         <Hobbies />
+
+        <TeacherComments />
         
         <Future />
       </main>
